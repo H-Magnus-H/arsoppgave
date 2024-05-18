@@ -2,8 +2,8 @@
 
 $host = 'localhost';
 $dbname = 'fishwar';
-$dbusername = 'root';
-$dbpassword = '';
+$dbusername = 'm';
+$dbpassword = 'Aadmin';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $dbusername, $dbpassword);
